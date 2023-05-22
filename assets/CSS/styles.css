@@ -192,17 +192,19 @@ a {
   margin-top: 70px;
 }
 
-.clients .brand-logo {
+.clients .customer .brand-logo {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+  background: #fff;
+  border-radius: 12px;
   transition: all ease 0.3s;
 }
 
 .clients .brand-logo:hover {
-  padding: 32px 41px 23px;
-  background: #ffffff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
 }
-
 /* How its works */
 
 .works {
