@@ -61,15 +61,26 @@ a {
 
 /* Khi một phần tử có nội dung dài, để hiển thị dấu 3 chấm khi overflow thì thêm class này vào thẻ chứa nội dung*/
 
+/* fixed-header */
+.fixed-header {
+  position: sticky;
+  top: -26px;
+  padding-top: 26px;
+  background-color: #e6f0ff;
+  z-index: 1;
+}
 /* Header */
-.header {
+.hero-wrap {
+  display: flex;
+  flex-direction: column;
   position: relative;
   background-color: #e6f0ff;
   height: 100vh;
 }
 
 .nav-bar {
-  padding-top: 38px; /*Nếu sử dụng margin sẽ xảy ra hiện tượng margin-collapse*/
+  /* padding-top: 38px; Nếu sử dụng margin sẽ xảy ra hiện tượng margin-collapse */
+  padding: 12px 0;
   display: flex;
   align-items: center;
 }
